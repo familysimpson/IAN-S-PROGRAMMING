@@ -14,9 +14,27 @@ Totalhits = 0
 Averagehits = 0.0
 Pointsearned = 0
 
-Teamname= input("Enter team name")
-Playerhits = int(input("Enter number of hits"))
-Totalhits = Totalhits + Playerhits
-for counter in range(6,0,-1)
-    print(counter)
+def get_details ():
+    global Teamname, Playerhits,Totalhits
+    Teamname= input("Enter team name")
+    for counter in range(6,0,-1):
+        Playerhits = int(input("Enter number of hits"))
+        Totalhits = Totalhits + Playerhits
+
+
+get_details()
+
+def calc_hits ():
+    global Averagehits, Pointsearned
+    Averagehits = Totalhits/6
+    if Totalhits > 50:
+        Pointsearned = 1
+    if Averagehits >= 10:
+        Pointsearned = Pointsearned + 1
+
+calc_hits()
+
+print(Teamname, "has scored", Pointsearned)
+
+
 
