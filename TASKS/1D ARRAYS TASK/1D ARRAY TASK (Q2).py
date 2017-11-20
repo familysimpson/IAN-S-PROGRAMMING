@@ -7,4 +7,4 @@ myPetName[2] = "Socks"
 myPetName[3] = "Bonnie"
 
 for index in range (0, 4):
-    print( myPetName [index])
+    print(myPetName [index])
