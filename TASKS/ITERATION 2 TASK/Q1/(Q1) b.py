@@ -1,5 +1,4 @@
 print("Enter a password")
-password = Nicole
 password = input(Nicole)
 while password != Nicole:
     print("Incorrect - retry")
