@@ -1,3 +1,4 @@
+
 #DECLARE myPetName: ARRAY (0-3) OF STRING
 myPetName = ["","","",""]
 
