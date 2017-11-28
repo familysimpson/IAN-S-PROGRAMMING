@@ -1,4 +1,7 @@
-# declare
+# DECLARE number1: INTEGER
+# DECLARE number2: INTEGER
+# DECLARE input: INTEGER
+
 number1 = 8
 number2 = 16
 result = number1 + number2
