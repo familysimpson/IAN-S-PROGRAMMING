@@ -1,3 +1,4 @@
+#DECLARE input: INTEGER
 print("Enter a number")
 number = int(input())
 while number != 7:
