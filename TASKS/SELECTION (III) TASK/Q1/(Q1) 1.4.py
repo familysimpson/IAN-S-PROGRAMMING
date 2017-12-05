@@ -3,9 +3,8 @@
 #IF Temperature > 25
     #THEN
         #OUTPUT "Hot"
-#END IF
-#IF Temperature >= 20 and = 25
+#ELSE IF Temperature >= 20 AND Temperature <= 25
     #THEN
         #OUTPUT "Just Right"
-    #ELSE
-        #OUTPUT "Cold"
+#ELSE
+    #OUTPUT "Cold"

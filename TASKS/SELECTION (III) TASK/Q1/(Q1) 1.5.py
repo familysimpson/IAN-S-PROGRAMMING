@@ -5,7 +5,7 @@ Temperature = int(input())
 
 if Temperature > 25:
     print("Hot")
-if Temperature >= 20 and = 25:
+elif Temperature >= 20 and Temperature <= 25:
     print("Just Right")
 else:
     print("Cold")
