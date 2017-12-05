@@ -1,6 +1,5 @@
 #DECLARE day: STRING
-#DECLARE Socks: STRING
-#DECLARE Sandals: STRING
+
 
 #CASE OF DAY
     #"Monday" : OUTPUT "Red Socks"
