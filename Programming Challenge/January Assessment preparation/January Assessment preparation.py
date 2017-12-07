@@ -15,8 +15,8 @@ Four_names_of_teams[] = random.randint(1,10)
 Four_names_of_teams[] = random.randint(1,10)
     print("Enter a number")
     number = int(input())
-        while number != 7:
-    print("Enter another number")
+    while number != 7:
+        print("Enter another number")
     number = int(input())
         print("Correct number!")
 
