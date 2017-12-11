@@ -14,7 +14,7 @@ Four_names_of_team2 = random.choice(Four_names_of_teams)
 print(Four_names_of_team1)
 print(Four_names_of_team2)
 
-Answer1= random.randint(1,10)
+Answer1 = random.randint(1,10)
 print(Four_names_of_team1,"Enter a number")
 number = int(input())
 while number != Answer1:
