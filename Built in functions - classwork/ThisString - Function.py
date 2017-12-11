@@ -1,4 +1,6 @@
+
 #EXAMPLE1
+
 name = "nicole"
 print(name[3])
 
