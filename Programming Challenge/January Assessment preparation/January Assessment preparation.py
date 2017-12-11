@@ -1,5 +1,7 @@
 #JANUARY ASSESSMENT PREPARATION  #GUESSINGGAME #NICOLE_CARRERA #07/12/17
 
+#DECLARE Four_names_of_teams: [0..4] OF ARRAY OF STRING
+
 import random
 print("Enter the four names of the team")
 Four_names_of_teams = ["","","",""]
