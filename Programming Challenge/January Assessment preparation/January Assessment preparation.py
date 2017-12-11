@@ -1,5 +1,6 @@
 #JANUARY ASSESSMENT PREPARATION  #GUESSINGGAME #NICOLE_CARRERA #07/12/17
 
+import random
 print("Enter the four names of the team")
 Four_names_of_teams = ["","","",""]
 
@@ -8,7 +9,6 @@ Four_names_of_teams[1] = input("Enter team 2")
 Four_names_of_teams[2] = input("Enter team 3")
 Four_names_of_teams[3] = input("Enter team 4")
 
-import random
 Four_names_of_team1 = random.choice(Four_names_of_teams)
 Four_names_of_team2 = random.choice(Four_names_of_teams)
 print(Four_names_of_team1)
