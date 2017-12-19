@@ -49,7 +49,6 @@ elif noAttempts2 > noAttempts1:
 elif noAttempts1== noAttempts2:
         print("It's a draw!")
 
-
 REPEAT1 = print(Four_names_of_team1,"Would you like to play again? YES OR NO")
 while REPEAT1 != "quit":
         Four_names_of_team1.clear()
