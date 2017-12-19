@@ -1,5 +1,5 @@
 #DECLARE varA: STRING
 varA ="computer"
 
-print(varA[0])
-#prints letter c
+print(varA[-2])
+#prints "e"
