@@ -44,6 +44,6 @@ THICK = "THICK" or "thick" or "Thick"
 input("Enter THIN or THICK")
 print("Your order number is",orderNo)
 
-print("Enter a topping from the list above and how many toppings you would like")
-Topping = input(TopName[])
+print("Enter a topping from the list and how many toppings you would like")
+Topping = input(TopName[0:9])
 
