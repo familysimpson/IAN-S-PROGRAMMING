@@ -62,5 +62,5 @@ order = order + TopName[choice] + ". "
 print(order)
 
 again = str(input("Would you like another topping? Yes or No"))
-while again == "Yes" or "No"
-    
+while again == "Yes"
+    print()
