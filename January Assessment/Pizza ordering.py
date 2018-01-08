@@ -55,12 +55,13 @@ endOrder = False
 topCount = 0
 choice = int(input("Enter topping number (0-9): "))
 
-while choice < 0 or choice > 9:
-    print("Not a valid topping choice. Try again.")
+    while choice < 0 or choice > 9:
+        print("Not a valid topping choice. Try again.")
     choice = int(input("Enter topping number (0-9): "))
 order = order + TopName[choice] + ". "
 print(order)
 
-again = str(input("Would you like another topping? Yes or No"))
-while again == "Yes"
-    print()
+
+
+
+
