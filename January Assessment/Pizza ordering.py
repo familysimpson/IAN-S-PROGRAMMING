@@ -1,14 +1,14 @@
 #Pizza ordering #Nicole Carrera #04/01/18
 
-order = ""
-orderNo = 1
-Base = ""
-Choice = ""
-Again = ""
-TopCount = 0
-Index = 0
-ShopOpen = True
-EndOrder = False
+#DECLARE order: STRING
+#DECLARE orderNo: INTEGER
+#DECLARE base : STRING
+#DECLARE choice: STRING
+#DECLARE again: STRING
+#DECLARE TopCount: INTEGER
+#DECLARE index: INTEGER
+#DECLARE ShopOpen: BOOLEAN
+#DECLARE EndOrder: BOOLEAN
 
 #DECLARE TopName: ARRAY[0:9] OF STRING
 TopName = ["","","","","","","","","",""]
@@ -38,12 +38,29 @@ print(7, TopName[7], TopAmnt[7])
 print(8, TopName[8], TopAmnt[8])
 print(9, TopName[9], TopAmnt[9])
 
-print("Would you like a THIN or THICK pizza base?")
-THIN = "THIN" or "thin" or "Thin"
-THICK = "THICK" or "thick" or "Thick"
-input("Enter THIN or THICK")
-print("Your order number is",orderNo)
+orderNo = 1
 
-print("Enter a topping from the list and how many toppings you would like")
-Topping = input(TopName[0:9])
-input = TopName[0:9]
+order = "Order no " + str(orderNo) + ': '
+base = input("Enter your choice of base (T)hin or (P)an: ")
+while base.upper() != "T" and base.upper() != "P":
+    print("Not a valid base type. Try again.")
+    base = input("Enter your choice of base (T)hin or (P)an: ")
+
+if base.upper() == "T":
+    order = order + "Thin base. "
+else:
+    order = order + "Pan base. "
+
+endOrder = False
+topCount = 0
+choice = int(input("Enter topping number (0-9): "))
+
+while choice < 0 or choice > 9:
+    print("Not a valid topping choice. Try again.")
+    choice = int(input("Enter topping number (0-9): "))
+order = order + TopName[choice] + ". "
+print(order)
+
+again = str(input("Would you like another topping? Yes or No"))
+while again == "Yes" or "No"
+    
