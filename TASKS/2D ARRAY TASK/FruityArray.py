@@ -5,5 +5,5 @@ while rownumber > 0 or < 4:
 
 columnnumber = int()
 input("Enter the column number, ", columnnumber)
-while columnnumber > 3 or < 0 :
+while columnnumber > 3 or < 0
     print("Incorrect. Please enter a number from 0 to 3")
