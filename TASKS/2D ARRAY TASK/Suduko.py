@@ -1,4 +1,4 @@
-#Nicole Carrera #2DArray #Suduko
+#Nicole Carrera #2DArray #Suduko #22/01/18
 
 #DECLARE Suduko_array: ARRAY [0:2,0:2] OF INTEGER
 #Suduko_array = [['' for r in range(0,3)]for c in range(0,3)]
