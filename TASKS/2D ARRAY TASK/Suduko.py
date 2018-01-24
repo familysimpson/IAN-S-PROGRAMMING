@@ -1,4 +1,5 @@
 #Nicole Carrera #2DArray #Suduko #22/01/18
+#Populate a 3x3 2D array with numbers between 1 and 9
 
 #DECLARE Suduko_array: ARRAY [0:2,0:2] OF INTEGER
 #Suduko_array = [['' for r in range(0,3)]for c in range(0,3)]
