@@ -3,8 +3,8 @@
 #DECLARE Suduko_array: ARRAY [0:2,0:2] OF INTEGER
 #Suduko_array = [['' for r in range(0,3)]for c in range(0,3)]
 
-#Suduko_array = [[0]*3] *3
-#Suduko_array = [[0,0,0],
+#1)Suduko_array = [[0]*3] *3
+#2)Suduko_array = [[0,0,0],
                 # [0,0,0]]
 #You could use either of these two in the comments^
 
@@ -22,4 +22,9 @@ Suduko_array [2][0] = random.randint(1,9)
 Suduko_array [2][1] = random.randint(1,9)
 Suduko_array [2][2] = random.randint(1,9)
 
-print(Suduko_array)
+
+#DECLARE index: INTEGER
+#this is to display it as a table
+
+for index in range (0,3):
+    print(Suduko_array[index])
