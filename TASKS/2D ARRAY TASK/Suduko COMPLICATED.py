@@ -38,3 +38,15 @@ for row in range (0,3):
 
 for index in range (0,3):
     print(Suduko_array[index])
+
+#Ask the user for a number between 1 and 9 and display the array location (row and column)
+
+number = int(input("Enter a number from 1 to 9"))
+while number < 0 or number > 9:
+    print("Incorrect. Enter again")
+    number = int(input("Enter a number from 1 to 9"))
+
+for row in range(0,3):
+    for col in range(0,3):
+        if Suduko_array[row][col] == number:
+            print([row],[col])
