@@ -27,11 +27,11 @@ for row in range (0,3):
         while added != True:
             temp = random.randint(1,9)
             if exist(temp) != True:
-                print('adding ',temp)
+                #print('adding ',temp)
                 Suduko_array[row][column] = temp
                 added = True
-            else:
-                print(temp,'there already')
+            #else:
+                #print(temp,'there already')
 
 #DECLARE index: INTEGER
 #this is to display it as a table
