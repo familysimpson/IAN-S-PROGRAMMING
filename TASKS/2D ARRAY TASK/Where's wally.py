@@ -12,18 +12,21 @@ import random
 
 Where_Wally[random.randint(0,4)][random.randint(0,4)] = 'W'
 
-rowGuess = int(input("Enter a number from 1 to 5"))
-while rowGuess < 0 or rowGuess > 5:
-    print("Incorrect. Enter again")
+endGame = False
+while endGame != True:
     rowGuess = int(input("Enter a number from 1 to 5"))
+    while rowGuess < 0 or rowGuess > 5:
+        print("Incorrect. Enter again")
+        rowGuess = int(input("Enter a number from 1 to 5"))
 
-colGuess = int(input("Enter a number from 1 to 5"))
-while colGuess < 0 or colGuess > 5:
-    print("Incorrect. Enter again")
     colGuess = int(input("Enter a number from 1 to 5"))
+    while colGuess < 0 or colGuess > 5:
+        print("Incorrect. Enter again")
+        colGuess = int(input("Enter a number from 1 to 5"))
 
-if Where_Wally[rowGuess][colGuess] == 'W':
-            print('You won')
-else:
-    print('Incorrect')
+    if Where_Wally[rowGuess][colGuess] == 'W':
+                print("You won")
+                endGame = True
+    else:
+        print("Incorrect")
 
