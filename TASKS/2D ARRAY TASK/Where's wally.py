@@ -7,6 +7,23 @@
 #DECLARE index: INTEGER
 
 Where_Wally = [["M" for r in range (5)]for c in range (5)]
-for index in range (0,5):
-    print(Where_Wally)
+
+import random
+
+Where_Wally[random.randint(0,4)][random.randint(0,4)] = 'W'
+
+rowGuess = int(input("Enter a number from 1 to 5"))
+while rowGuess < 0 or rowGuess > 5:
+    print("Incorrect. Enter again")
+    rowGuess = int(input("Enter a number from 1 to 5"))
+
+colGuess = int(input("Enter a number from 1 to 5"))
+while colGuess < 0 or colGuess > 5:
+    print("Incorrect. Enter again")
+    colGuess = int(input("Enter a number from 1 to 5"))
+
+if Where_Wally[rowGuess][colGuess] == 'W':
+            print('You won')
+else:
+    print('Incorrect')
 
