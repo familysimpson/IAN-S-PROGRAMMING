@@ -1,4 +1,4 @@
-
+#TIMESTABLE
 
 print("Here is a times tables grid")
 print("Enter the number 12 for a 12 by 12 grid")
