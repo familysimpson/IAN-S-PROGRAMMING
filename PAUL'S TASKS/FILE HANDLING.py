@@ -5,7 +5,6 @@ Input a string from the keyboard and write it into the file
 Close the file
 
 
-
 EXTENSION
 Allow multiple strings to be input
 Allow multiple string to be read from file
