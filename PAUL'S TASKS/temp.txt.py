@@ -1,1 +1,1 @@
- The quikc brown fox jumps over the lazy fox
+ Eat more fruit
