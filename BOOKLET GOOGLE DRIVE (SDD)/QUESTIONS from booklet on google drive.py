@@ -1,4 +1,4 @@
-"""QUESTION
+"""QUESTION 5 (PAGE 12)
 A computer program is used to store a patient’s heart rate each day for a week.
 The seven readings are stored in an array of real numbers called “bpm”.
 Using Pseudocode or a programming language of your choice,
