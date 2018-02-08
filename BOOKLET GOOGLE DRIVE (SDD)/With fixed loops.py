@@ -5,21 +5,15 @@ Using Pseudocode or a programming language of your choice,
 write a short program to calculate the average heart rate of the patient over the seven days.
 """
 
-#DECLARE bpm: ARRAY[0:7] OF REAL
+#DECLARE bpm: REAL
 #DECLARE days: INTEGER
 bpm = [float,float,float,float,float,float,float]
-
 days = 7
+bpm_total = 0.0
+for counter in range (0,7):
+    bpm[counter] = float(input(("Enter heart rate ")))
 
-bpm [0] = 80.1
-bpm [1] = 80.1
-bpm [2] = 100.3
-bpm [3] = 80.1
-bpm [4] = 80.1
-bpm [5] = 91.0
-bpm [6] = 80.1
-
-sum = sum(bpm[0:7])
-avg_hrt_rate = sum / days
-print(avg_hrt_rate)
+    bpm_total = bpm_total+ bpm[counter]
+bpm_avg = bpm_total / days
+print(bpm_avg)
 
