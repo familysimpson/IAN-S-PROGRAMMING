@@ -9,6 +9,8 @@ write a short program to calculate the average heart rate of the patient over th
 #DECLARE days: INTEGER
 bpm = [float,float,float,float,float,float,float]
 
+days = 7
+
 bpm [0] = 80.1
 bpm [1] = 80.1
 bpm [2] = 80.1
@@ -16,8 +18,6 @@ bpm [3] = 80.1
 bpm [4] = 80.1
 bpm [5] = 80.1
 bpm [6] = 80.1
-
-days = 7
 
 sum = sum(bpm[0:7])
 avg_hrt_rate = sum / days
