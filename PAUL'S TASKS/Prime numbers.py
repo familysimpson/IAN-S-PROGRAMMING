@@ -5,7 +5,7 @@ Program should print on screen all prime numbers less than or equal to that numb
 (e.g 2,3,5,7,11,13,17,19)
 """
 
-#DECLARE VarA : INTEGER
+#DECLARE max : INTEGER
 #DECLARE x: INTEGER
 
 max = int(input("Find primes up to what number: "))
