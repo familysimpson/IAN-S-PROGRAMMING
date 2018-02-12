@@ -10,7 +10,7 @@ Program should print on screen all prime numbers less than or equal to that numb
 
 max = int(input("Find primes up to what number: "))
 
-for x in range(2,max + 1):
+for x in range(2, max + 1):
     isPrime = True
     for y in range(2 , x):
         if x % y == 0:
