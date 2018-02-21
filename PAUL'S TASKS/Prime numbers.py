@@ -5,20 +5,16 @@ Program should print on screen all prime numbers less than or equal to that numb
 (e.g 2,3,5,7,11,13,17,19)
 """
 
-#DECLARE max : INTEGER
+#DECLARE debbie_input : INTEGER
 #DECLARE x: INTEGER
+#DECLARE y: INTEGER
 
-max = int(input("Find primes up to what number: "))
+debbie_input = int(input("Find primes up to what number: "))
 
-for x in range(2, max + 1):
+for x in range(2, debbie_input + 1):
     isPrime = True
     for y in range(2 , x):
         if x % y == 0:
             isPrime = False
     if isPrime:
         print(x)
-
-
-
-
-
