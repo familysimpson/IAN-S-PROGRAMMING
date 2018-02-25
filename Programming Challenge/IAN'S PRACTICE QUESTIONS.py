@@ -1,3 +1,6 @@
+#DECLARE day: INTEGER
+#DECLARE noExams: INTEGER
+#DECLARE day_name: ARRAY (0:6) OF STRING
 
 day = 0
 noExams = 0
