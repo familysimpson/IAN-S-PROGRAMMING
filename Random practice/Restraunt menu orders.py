@@ -1,12 +1,12 @@
 
 SetMenuOption = ["","","","","",""]
 
-SetMenuOption[0] = "Chicken and rice"
-SetMenuOption[1] = "Chilli con carne"
-SetMenuOption[2] = "Spagetthi meatballs"
-SetMenuOption[3] = "Fries"
-SetMenuOption[4] = "Rice and brocolli"
-SetMenuOption[5] = "Peach and rice"
+SetMenuOption[0] = "Pumpkin soup"
+SetMenuOption[1] = "Cow foot & rice'n'peas"
+SetMenuOption[2] = "Jerk chicken"
+SetMenuOption[3] = "Plantain fries"
+SetMenuOption[4] = "Ackee & Salfish"
+SetMenuOption[5] = "Curry goat & lamb"
 
 customer_order = [int,int,int,int,int,int]
 
