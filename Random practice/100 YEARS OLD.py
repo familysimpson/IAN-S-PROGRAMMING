@@ -1,5 +1,5 @@
 """Create a program that asks the user their name and their age.
-Print out a message addressed to them that tell them the year that they will turn 100 years old """
+Print out a message addressed to them that tell them how many years that they will turn 100 years old """
 
 #DECLARE name: STRING
 #DECLARE age: INTEGER
