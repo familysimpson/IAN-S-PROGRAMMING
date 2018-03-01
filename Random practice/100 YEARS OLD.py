@@ -11,4 +11,4 @@ name = str(input("Please enter your name"))
 age = int(input("Please enter your age"))
 
 future_years = 100 - age
-print(name,"you will be 100 in",future_years,"which is",date.today().year, "years")
+print(name,"you will be 100 in",future_years,"years")
