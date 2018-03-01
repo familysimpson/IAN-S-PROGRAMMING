@@ -20,18 +20,21 @@ School_Array[9] = "Dame Alice Owen"
 
 school_capacity = [float,float,float,float,float,float,float,float,float,float]
 measurement_snow= [float,float,float,float,float,float,float,float,float,float]
+Gates_open = ["", "", "", "", "", "", "", "", "", ""]
 
-for counter in range(0,10):
-    print(School_Array[counter])
+for school_counter in range(0,10):
+    print(School_Array[school_counter])
     school_capacity = float(input("What is the capacity of students today(%)"))
     measurement_snow = float(input("What is the measurement of snow at your school"))
 
-    if school_capacity > 25.0:
-        Gates_open = "CLOSE YOUR SCHOOL!"
-        print(Gates_open)
+    for counter in range(0, 1):
+
+        if school_capacity > 25.0:
+            Gates_open[school_counter] = "CLOSE YOUR SCHOOL!"
         if measurement_snow >= 2.5:
-            Gates_open = "CLOSE YOUR SCHOOL!"
-            print(Gates_open)
+            Gates_open[school_counter] = "CLOSE YOUR SCHOOL!"
         else:
-            Gates_open = "OPEN YOUR SCHOOL!"
-            print(Gates_open)
+            Gates_open[school_counter] = "OPEN YOUR SCHOOL!"
+
+for school_counter in range(0, 10):
+    print(School_Array[school_counter],":",Gates_open[school_counter])
