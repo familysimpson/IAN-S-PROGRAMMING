@@ -1,25 +1,9 @@
-
-
-Add_member = str(input("Add member:"))
-name = str(input("Enter name:"))
-
-while len(str(Add_member))!= 6 :
-    print("Membership code invalid. Enter a valid membership code with 6 alphanumeric characters.")
-    Add_member = str(input("Add member:"))
-
-print("Here is the valid membership code for:",name,"-",Add_member)
-
-
 # Ian's attempt
-
-# FOR REFERENCE IF YOU NEED TO MAKE A FUNCTION
-# FUNCTION validateMembershipNo(MEMBERID : STRING) RETURNS BOOLEAN
-#
-# END FUNCTION
 
 # PROCEDURE addNewMember(NAME : STRING, MEMBERID : STRING, CATEGORY : STRING)
 #
 # END PROCEDURE
+
 def addNewMember(name, memberID, category):
     print
 
@@ -41,6 +25,8 @@ def calculateTotalMembers(membersJ, membersS, membersSTD, noJuniors, noSeniors, 
 def deleteMember(memberID, membersJ, membersS, membersSTD):
     print
 
+
+#This part is not needed but more a visulisation of how it works
 # main program
 # DECLARE name : STRING
 # DECLARE memberID : STRING
