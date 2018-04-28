@@ -11,7 +11,7 @@ MaleSalary[0:4] = 0
 OPENFILE "Salary_TXT" FOR READ
 WHILE NOT EOF ("Salary_TXT")
     READFILE "Salary_TXT", 
-    ############ HELP HERE PLZ
+    ############ HELP HERE PLZ HOW DO YOU EXTRACT STRING FROM TEXTFILE
 ENDWHILE 
 CLOSEFILE "Salary_TXT"
     
