@@ -1,6 +1,8 @@
 
 #DECLARE femaleSalary: ARRAY [0:4] OF INTEGER
 #DECLARE maleSalary: ARRAY [0:4] OF INTEGER
+#DECLARE Salary: REAL
+#DECLARE Gender: CHAR
 
 femaleSalary = [0,0,0,0,0]
 maleSalary = [0,0,0,0,0]
@@ -37,5 +39,5 @@ while len(line) > 0:
     elif gender == "M":
             maleSalary[elementID] = maleSalary[elementID] + 1
 
-print("Here is the number for the female salary" , femaleSalary)
-print("Here is the number for the male salary", maleSalary)
+#print("Here is the number for the female salary", femaleSalary)
+#print("Here is the number for the male salary", maleSalary)
