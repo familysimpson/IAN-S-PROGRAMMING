@@ -40,8 +40,9 @@ ELSE IF gender is EQUAL to "M"
 CLOSEFILE Name_Salary_gender_txt
 
 //The salary wages are going from highest to lowest in the array
-OUTPUT ("Here is the number for the female salary" ,femaleSalary)
-OUTPUT ("Here is the number for the male salary " ,maleSalary)
+//IF NEEDED
+//OUTPUT ("Here is the number for the female salary" ,femaleSalary)
+//OUTPUT ("Here is the number for the male salary " ,maleSalary)
 
 
 
