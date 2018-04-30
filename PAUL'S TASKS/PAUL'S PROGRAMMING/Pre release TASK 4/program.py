@@ -19,19 +19,19 @@ while len(line) > 0:
     print(gender,salary)
     line = fh.readline()
 
-    if salary >= 0 or salary <= 25000.0:
+    if salary >= 0 and salary <= 25000.0:
         elementID = 0
 
-    elif salary > 25000.0 or salary <= 50000.0:
+    elif salary > 25000.0 and salary <= 50000.0:
         elementID = 1
 
-    elif salary > 50000.0 or salary <= 75000.0:
+    elif salary > 50000.0 and salary <= 75000.0:
         elementID = 2
 
-    elif salary > 75000.0 or salary <= 100000.0:
+    elif salary > 75000.0 and salary <= 100000.0:
         elementID = 3
 
-    elif salary > 100000.0 or salary <= 110000.0:
+    elif salary > 100000.0 and salary <= 110000.0:
         elementID = 4
 
     if gender == "F":
@@ -39,5 +39,5 @@ while len(line) > 0:
     elif gender == "M":
             maleSalary[elementID] = maleSalary[elementID] + 1
 
-#print("Here is the number for the female salary", femaleSalary)
-#print("Here is the number for the male salary", maleSalary)
+print("Here is the number for the female salary", femaleSalary)
+print("Here is the number for the male salary", maleSalary)
