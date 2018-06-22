@@ -11,7 +11,7 @@ Ans_Verify = False
 Count = 0
 loopy = 20
 
-for loopy in range(0,20):
+for loopy in range(0,loopy):
     print(Question)
     print(Answer)
     User_ans = str(input("Please enter 'y' if you achieved the correct answer and please enter 'n' if you achieved the incorrect answer:"))
@@ -27,3 +27,4 @@ for loopy in range(0,20):
     elif User_ans == "n":
         Ans_Verify = False
         print("Don't worry just try again.")
+        print("Here is your current count", Count)
