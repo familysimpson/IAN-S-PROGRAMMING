@@ -4,8 +4,8 @@
 #DECLARE Answer: STRING #insert answer from file (FINN)
 #DECLARE loopy: INTEGER # it till loop 20 times
 
-Question = "Is a compiler a type of translator?"#This will be question from file #finn
-Answer = "A compiler is a type of translator " #This will be answer from file #finn
+Question = "Is a compiler a type of translator?"#This will be question from file should generate a new question each time #finn
+Answer = "A compiler is a type of translator " #This will be answer from file with the following question #finn
 
 Ans_Verify = False
 Count = 0
