@@ -27,4 +27,4 @@ for loopy in range(0,loopy):
     elif User_ans == "n":
         Ans_Verify = False
         print("Don't worry just try again.")
-        print("Here is your current count", Count)
+print("Here is your final count: ", Count)
