@@ -15,5 +15,4 @@ def parrot_trouble(hour):
         talking = False
         return talking
         #print(talking, " :parrot is not talking")
-
 print(parrot_trouble(5))
