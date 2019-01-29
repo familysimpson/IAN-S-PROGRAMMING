@@ -8,26 +8,26 @@ class bNode:
         self.rightpointer = 0
         self.data = ''
 
-    def setData(value):
-        data = value
+    def setData(self,value):
+        self.data = value
 
-    def getData():
-        return data
+    def getData(self):
+        return self.data
 
-    def setleftpointer(value):
-        leftpointer = value
+    def setleftpointer(self,value):
+        self.leftpointer = value
 
-    def getleftPointer():
-        return leftpointer
+    def getleftpointer(self):
+        return self.leftpointer
 
-    def setrightpointer(value):
-        rightpointer = value
+    def setrightpointer(self,value):
+        self.rightpointer = value
 
-    def getrightPointer():
-        return rightpointer
+    def getrightpointer(self):
+        return self.rightpointer
 
 
-bTree = [bNode, bNode, bNode, bNode, bNode, bNode, bNode, bNode]  # 8 nodes in the binary tree
+bTree = [bNode(), bNode(), bNode(), bNode(), bNode(), bNode(), bNode(), bNode()]  # 8 nodes in the binary tree
 bTree[0].setData('Celtic')
 bTree[0].setleftpointer(3)
 bTree[0].setrightpointer(1)
