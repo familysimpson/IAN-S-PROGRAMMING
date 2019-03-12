@@ -12,6 +12,8 @@ def HashAlgorithm(charF,charM,charL):
     HashValue = Charactersum % 12 #hashing algorithm
     return HashValue
 
+print(HashAlgorithm(charF, charM, charL)) # you just forgot this
+
 #3.The data structure used to hold the three letter sequences is a list named Airport. This list can hold 2000 elements.
 #In Python create a procedure to add each three letter sequence to the appropriate index in the list.
 
